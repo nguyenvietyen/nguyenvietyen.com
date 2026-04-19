@@ -457,7 +457,8 @@ header {
 }
 
 header h1 {
-  margin-bottom: var(--line-height);
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
 header h1 .subtitle {
@@ -465,6 +466,7 @@ header h1 .subtitle {
   font-size: 0.8rem;
   font-weight: var(--font-weight-normal);
   letter-spacing: 0.1em;
+  margin-top: 0;
 }
 
 img {
